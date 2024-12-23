@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Nav bar section-->
+    <nav class="nav-bar">
+        <img src="assets/images/logo.svg" alt="" class="logo">
+        <button class="sign-out">Sign Out</button>
+    </nav>
+    <!-- Hero Section -->
+     <div class="hero">
+        <h1>Unlimited Movies,<br>TV Shows, and more</h1>
+        <p>Starts at Rs 250. Cancel anytime.</p>
+        <button>Finish Sign-Up  <i class="fa-solid fa-angle-right"></i> </button>
+     </div>
+     
+     <!-- Trending now section -->
+      <section class="trending">
+        <div class="trending-header">
+            <h2>Trending Now</h2>
+            <div class="filters">
+                <select class="drop-down">
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Global">Global</option>
+                </select>
+                <select class="drop-down">
+                    <option value="Movies">Movies</option>
+                    <option value="global">TV Shows</option>
+                </select>
+            </div>
+        </div>
+       <div class="movies-container">
+        <div class="movies">
+            <div class="card">
+                <img src="https://occ-0-1242-64.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABXWdaAyBtGet3VrQqhLnbHhD68IENZ81owQV8WceIAD426JrCr9T8Fbw4aWWqVyRJYMcmjpZVgICD2dfxXqS1TtUw8V25DVf7ZEZsJVLhLQI4Imxp_4XG5lYVsYdxYpEow-7aagSq7QpohmPP5fFU05mYSCi0WLr3k0oy1DH6PU3HcdQ42A5p_JtWxbkSpXnkcll1OEE2mI7P4r39zfGftxCfdo0Sz819Uc0d0SKRoRGtshNvSjDOp4T0rb9jHCgnNKwgKUe-73zow1yS5KudU0PwjRz_Df2_TdJx_t0cXyfQX4w6f7R6gxPL92hoj-nEFL0z308XLq77spoWWBSWuc.webp?r=4a9" alt="">
+                <div class="info">
+                    <h3>1</h3>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://occ-0-1242-64.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRkVR7FHYZyjcWsTdqQiKEozBwpHSkswjOqt6sIVFaPQENphQXBIoWQZiP5aW9D6Eh0aB7pT25J2aKv0NObQ81PFjGocH9Z1aYG8kru_X3S08DcpVu5pUcrM6djphEbb9fr5qRRy82fAvZXlAj72GH8RE4z9tjjnXxD3EIr8kSMObz85xj_0Q1Ug9mCcBIIK7G5GWKOOd-It1G3cYE530UXefCTvGMkycaYwgm_PQOksHG4j-tay39vknkRVjkfZkO-kyoydD_PBwGSjd9g7iizafSNL7FyPhTrh1YEU_PFPmL1yYCrsw-XPL4Hch7cD1eBZhhFvWwsrgudfKENr0Kc.webp?r=11d" alt="">
+                <div class="info">
+                    <h3>2</h3>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://occ-0-1242-64.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABUko_GB4Jes-2zI4owOH6DM_uC72eQmM42_lRN0Xh60ZVi-w03aCRj0uSQI6EKgSmSxLwzXUHo43jUoOiK5Rfwc-K4h1USyUz-mGCCk88_HMH6jO6mDJXIpiHsqnS34qPjP6r9Q0o-epkmviB7JQoVXfVg5R4CU09z0PgsLkrgo2JPDCMWpbyn5zpOuKuVkT5SanYLH7SOxHT6M0L1vfJ_WV2FAUgA-l1ZkCZw7l6PNKA_QsaQUeQ-TsckWmo-AXunjjOQgNxw56gVOP7gMsogYQoY2z3hvdvvdhHXd8iXM-yPix-oN7Nob8AeWF1hxO7ykOuxrnPB2xaeV4IzKbt4A.webp?r=e1d" alt="">
+                <div class="info">
+                    <h3>3</h3>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://occ-0-1242-64.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABdm3D0DDJkcM3LzSoz8uwIjrIVNnaoeR-7rLQJZBYfdxUWwf3fnPR5rRznMdrncYn54Fhi3i7xzDFDW2Wp60p_G1AXlymxZY8B8HDYBjaPXCDsdF0lkXMRxNCneF3FaOqMOqcH99wuBqoQX-KwKlFvNO7-tmeUf_vLQ5Y3EUxnENtGzu7p7ihDaPgB7x740sYqY9jAAQk4KojuXsVgIq56i5MklXS4iEe0GbKkEWlxhAnXRUCxtGw3bBRF6PSaENKHnZSbZzOmBX50Ka8c_Vf-qyGguHrUFbij_fSGYU9R-zA-GNFjhn7jkOesqnrioAtukXnWP9EMyAHStBqOHtg9bFF-sajGPE9Th4RuyY6LC_ZyxGQls.webp?r=c15" alt="">
+                <div class="info">
+                    <h3>4</h3>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://occ-0-1242-64.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABVLyo39_1BgJjlyG60aeqaPk1gBOITw5oigqQlYhoDh8-NJXtYlFfCgKru5hxrgMs3o3gn9F2_mQNUY8hgXJDoKhtpub48DjNDQKmLs3NIlfWbFFM9A9kHkDi9_TE-xc45yaJnsaOjmtiOgR5Wk91xx2RK2d7TUCDZTEb5iGmW337SstakbXB7a3SkTmJ5W5ismRyUSrUPD0JuUuTtfmJd_zgmvmKb-QyTemP8-xDX7aSYMbSUmwK0fa9_2Aual_xTqWSIed1kAW3uQwzWjfwk7eOrTwy8JBhecGWpZxy8vqGxOQ6XIV34IYW-2rcn6wFsMvp7obdDOtDb07SpRgOkwMluhcPRRbI9tU_akN8pCFpzPrQrw.webp?r=13b" alt="">
+                <div class="info">
+                    <h3>5</h3>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://occ-0-1242-64.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQn0oK-3adymkB_uyT5i1lBeLjogh1lh26BjL_ILHhJ6lCuIgmPHvT_NoVkrP5CtAY353hT6GxFjYcqL0rFSk2b2h4dYjD3zkJ5eSGbyauEjqyiH0tcc5m9Gg-r_y88cFQEwWAH6wuSKJkiAjGJKrpfoa3HVUz4ZrApSHqcsJlBQfSvwBRt_r80uZKW0kqI5Qei2pO5qgliqedRSOEp0N1HcQz726HZWqlRQ4PKCGypNhA8fAL5ICFyMegQ_cXPWqyiZxCnc_ueL4pFYoPdgwD7jcQCT.webp?r=01f" alt="">
+                <div class="info">
+                    <h3>6</h3>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://occ-0-1242-64.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABYkYnMHJUuPSNN2-y36IAbosOHkCtF0tgZhv1syPxp8vBs50Fhg57b50g9SR4aEgzb2XTWpg-15zg4M35CFK0dWiDiVsv-_SnqW3lJy2mHvukR4_tuc1SKbli6P_GQSOPKMZKixgA-C2s1n0KI1OOy7bynVq3_F97nmOEi1xqvUp6F-FjhXcR63952g3dTKassXahtjWBN0xzSrFKLXfrwpIh7hovdXThe4UFTDJFsT7DhuiPk91PqQ1XiXD9q48aWyg8cFseiJXehLqSWFvGg9RQ0RODva82qbzvW08R427tsUXCYQFoLme.webp?r=6d6" alt="">
+                <div class="info">
+                    <h3>7</h3>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://occ-0-1242-64.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABXS4HzR5qat2EEccI1HaYl1Ki52pQff6LND3YmCWax0kR0TA08eZFWQkUwEAm_jXLizrSxeN_8Dvmyq-tyAr-UW0yUkuRfANlI-DIdaKRTAGsCXQEla8FNu2aUB4QEL7YxU5SnLxL5Hvdx4Nqa9kUCkSiKg8F5ctRAg.webp?r=8fc" alt="">
+                <div class="info">
+                    <h3>8</h3>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://occ-0-1242-64.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABat5D-X1ZY9hlBzR1Xl8bkEwAeyXaAeBj_1YEzYCl0LKFXH5c3fsZY836k_wRSaHTkA3nISHq9ZuSnzFXkcAi7Kf_MmyPrryzCElx8zYi1oHDPzZxkDeu7kkgl4mgo-syKy9RQGuCaeoB1HQvQ4NhsMbqvz4ImHeNU3lnW5qf0gRyzorwaNiOkLEW3bRoD07y1qPejNVJrnM53GRGpqJ3iYT9omdOB0b0oqPdyuEU6SEzvDKgb8gnt3i6ZUFXLqGmu1rA0CxX2jDt8WjrHO_d5OfhgCfPOc4sxbFvUH3fuvh3U6pXFliVQev.webp?r=5b2" alt="">
+                <div class="info">
+                    <h3>9</h3>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://occ-0-1242-64.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABao7pN6zaYhz7A_XMGt2WZ4oW0c543M7gBj07H7845WeKrNK5hkn2RkewaKGywv95-8yr66ehNA9dw08sf4-zWlGZdRlfhWkxXvvGkrKwDuc-Ya9rRqeTk6g-vfHVpz2fsmxUmHf4iCg4eeyrR14JL8RZD5WAXQa2fLcJW07g_-NdDewCHMuwLRsdiuqawX1FMGlx9xuTb2qZaoHy8wmwn7_Th8FntPa2AjYmT4nZexQG-pk-sK0oMgZXgmiHTVL0C5ydru1ch90xUPZ2iGo5onap2t3Sgc-fZmpC4luuszz4ajugnPkHITf.webp?r=305" alt="">
+                <div class="info">
+                    <h3>10</h3>
+                </div>
+            </div>
+        </div>
+       </div>
+      </section>
+
+      <!-- Reason to join -->
+      <section class="reason">
+        <h2>More Reasons to Join</h2>
+        <div class="reasons-list">
+            <div class="reason-item">
+                <h3>Enjoy on your TV</h3>
+                <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+            </div>
+            <div class="reason-item">
+                <h3>Download your shows to watch offline</h3>
+                <p>Save your favorites easily and always have something to watch.</p>
+            </div>
+            <div class="reason-item">
+                <h3>Watch everywhere</h3>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+            <div class="reason-item">
+                <h3>Create profiles for kids</h3>
+                <p>Send kids on adventures with their favorite characters in a space made just for them — free with your membership.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="question">What is Netflix? <i class="fa-solid fa-plus"></i></div>
+        <div class="answer">Netflix is a streaming service...</div>
+        <div class="question">How much does Netflix cost? <i class="fa-solid fa-plus"></i></div>
+        <div class="answer">Netflix offers a variety of plans...</div>
+        <div class="question">Where can I watch? <i class="fa-solid fa-plus"></i></div>
+        <div class="answer">You can watch on any device...</div>
+        <div class="question">How do i cancel? <i class="fa-solid fa-plus"></i></div>
+        <div class="answer">Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</div>
+        <div class="question">What can i watch on Netflix? <i class="fa-solid fa-plus"></i></div>
+        <div class="answer">Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</div>
+        <div class="question">Is Netflix good for childs? <i class="fa-solid fa-plus"></i></div>
+        <div class="answer">The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.
+
+        Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</div>
+    </section>
+
+    <!-- Footer section -->
+    <button>Finish Sign-Up  <i class="fa-solid fa-angle-right"></i> </button>
+    <footer class="footer">
+        <p class="footer-heading">Questions? <a href="#">Contact us.</a></p>
+        <div class="footer-links">
+            <div>
+                <a href="#">FAQ</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Privacy</a>
+                <a href="#">Speed Test</a>
+            </div>
+            <div>
+                <a href="#">Help Center</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Legal Notices</a>
+            </div>
+            <div>
+                <a href="#">Account</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+            <div>
+                <a href="#">Media Center</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+        <div class="footer-language">
+            <button>
+                <i class="fa-solid fa-globe"></i> English <i class="fa-solid fa-caret-down"></i>
+            </button>
+            <p class="footer-country">Netflix Pakistan</p>
+        </div>
+        
+    </footer>
+    
+    
+    
+</body>
+</html>
